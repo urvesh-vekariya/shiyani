@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shiyani's Finserv - Your Trusted Financial Partner</title>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <style>
         * {
             margin: 0;
@@ -571,20 +573,38 @@
             margin-top: 15px;
         }
 
-        .social-links a {
+         .social-links a {
             display: inline-flex;
-            width: 40px;
-            height: 40px;
+            width: 45px;
+            height: 45px;
             background: var(--primary);
             border-radius: 50%;
             align-items: center;
             justify-content: center;
-            font-size: 1.2rem;
-            transition: background 0.3s;
+            font-size: 1.3rem;
+            transition: all 0.3s ease;
+            color: white;
         }
 
         .social-links a:hover {
-            background: var(--secondary);
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .social-links a.facebook:hover {
+            background: #1877f2;
+        }
+
+        .social-links a.instagram:hover {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+
+        .social-links a.youtube:hover {
+            background: #ff0000;
+        }
+
+        .social-links a.linkedin:hover {
+            background: #0077b5;
         }
 
         .footer-bottom {
@@ -982,10 +1002,18 @@
                     <h3>About Shiyani's Finserv</h3>
                     <p>Your trusted partner for insurance, loans, and investment solutions. We help you secure your financial future with expert guidance and personalized service.</p>
                     <div class="social-links">
-                        <a href="#" title="Facebook">📘</a>
-                        <a href="#" title="Twitter">🐦</a>
-                        <a href="#" title="LinkedIn">💼</a>
-                        <a href="#" title="Instagram">📷</a>
+                        <a href="https://www.facebook.com/profile.php?id=61559624195544" title="Facebook" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/shiyanisfinserv" title="Instagram" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                       <!--  <a href="#" title="YouTube" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a> -->
+                        <a href="https://www.linkedin.com/in/siddharth-shiyani-7334b2a5/" title="LinkedIn" class="linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
                 </div>
 
